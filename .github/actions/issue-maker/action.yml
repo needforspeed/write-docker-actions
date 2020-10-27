@@ -14,7 +14,7 @@ inputs:
     default: "Mona is an Octocat"
 
   repoToken:
-    description: "Authentication token, use secrets.GITHUB_TOKEN"
+    description: "Authentication token, use secrets.REPO_TOKEN"
     required: true
 
 runs:
